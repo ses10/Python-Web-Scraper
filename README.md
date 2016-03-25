@@ -6,6 +6,6 @@ This project will scrape the following sites:
 - Indeed.com (for certain job postings)
 
 ###Dependencies 
-This Python 3 project uses the following modules:
+This Python 2 project uses the following modules:
 - Requests
 - lxml
