@@ -13,6 +13,9 @@ queryString = 'http://www.deviantart.com/browse/all/?section=&global=1&q=' + que
 #the current xPath for image results as of writing
 xPath = '//*[@id="page-1-results"]/div/span/span[1]/span[2]/a/img'
 
+#get page and parse it
+page = requests.get(queryString)
+tree = html.fromstring(page.content)
 
-
-
+#get the images
+images = tree.xpath(xPath)
