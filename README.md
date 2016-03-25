@@ -7,5 +7,5 @@ This project will scrape the following sites:
 
 ###Dependencies 
 This Python 3 project uses the following modules:
-	- Requests
-	- lxml
+- Requests
+- lxml
